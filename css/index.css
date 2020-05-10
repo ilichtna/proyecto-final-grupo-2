@@ -2,16 +2,15 @@
     box-sizing: border-box;
 }
 
-,body {
+body {
     margin: 0;
 }
 
-.img {
+img {
     max-width: 100%;
 }
 
 .grid {
-    background-color: rgb(155, 245, 167);
     min-height: 200px;
     flex: 1;
     display: grid;
