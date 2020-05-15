@@ -1,0 +1,53 @@
+
+
+.campo-formulario {
+    padding: 1em;
+}
+.input-style {
+    height: 2em;
+    padding-left: 1em;
+    border-radius: 10px;
+    background-color: #99bbfd;
+}
+
+.input-styled:required {
+    border-style: double;
+    background-color: #99bbfd;
+}
+
+.submit {
+    background-color: #99bbfd;
+    color: aliceblue;
+}
+
+.terminos:checked~button {
+    background-color: #99bbfd;
+}
+
+button {
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    color: #99bbfd;
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+}
+
+.input-styled:valid {
+    border-color: rgb(124, 255, 107);
+}
+
+.input-styled:invalid {
+    border-color: red;
+}
+
+.input-styled:in-range {
+    font-size: 2rem;
+}
+
+.input-styled:out-of-range {
+    background-color: #99bbfd;
+}
