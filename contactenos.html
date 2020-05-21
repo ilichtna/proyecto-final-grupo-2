@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>contactenos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/contactenos.css">
+    <link rel="stylesheet" href="css/transporte.css">
+    <link rel="stylesheet" href="css/comunicativos.css">
+    <link rel="shortcut icon" href="/imágenes/epys/logo4.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light fondo-navbar sticky-top">
+        <a class="navbar-brand" href="#"><img style="border-radius: 50%;" src="imágenes/comunicativos/logo4.jpg"
+                alt="logo Etnica" width="220" height="90"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item  mr-4">
+                    <a class="nav-link btn-colormenu waves-effect" href="./index.html">Principal</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link btn-colormenu waves-effect" href="./comunicativos.html">Manga</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link btn-colormenu waves-effect" href="./transporte.html">Laura Alcira</a>
+                </li>
+                <li class="nav-item mr-5 ">
+                    <a class="nav-link btn-colormenu waves-effect" href="./laural.html">Laural</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <main>
+        <h1>Queremos Conocerte</h1>
+        <form id="login" name="login" action="./index.html">
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="nombre">Nombres</label>
+                <input class="input-styled" id="nombre" name="nombre" type="text" placeholder="Ingresa aqui tus nombres"
+                    required>
+            </div>
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="apellido">Apellidos:</label>
+                <input class="input-styled" id="apellido" name="apellido" type="text"
+                    placeholder="ingresa aqui tus apellidos" required>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="telefono">Celular: </label>
+                <input class="input-styled" id="telefono" name="telefono" type="text" placeholder="ingesa tu celular"
+                    maxlength="10" required>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="email">email: </label>
+                <input class="input-styled" id="email" name="email" type="text" placeholder="ingresa tu e mail"
+                    required>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <p>Como conociste EtnicaPyS: </p>
+                <input class="input-styled" id="internet" name="conocer" type="radio" value="internet">
+                <label for="male">Internet</label>
+                <br>
+                <input class="input-styled" id="amigos" name="conocer" type="radio" value="amigos">
+                <label for="female">Amigos</label>
+                <br>
+                <input class="input-styled" id="otros" name="conocer" type="radio" value="otro">
+                <label for="other">Otros</label>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <p>Qué quieres recibir: </p>
+                <input class="input-styled" id="comunicativos" name="comunicativos" type="checkbox" value="html">
+                <label for="comunicativos">servicios comunicativos</label>
+                <br>
+                <input class="input-styled" id="transporte" name="transporte" type="checkbox" value="css">
+                <label for="transporte">servicios de transporte</label>
+                <br>
+                <input class="input-styled" id="Permacultura" name="transporte" type="checkbox" value="js">
+                <label for="Permacultura">permacultura</label>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="message">Comentarios: </label>
+
+                <br>
+                <textarea name="message" id="message" cols="20" rows="5" placeholder="Ingrese aquí su mensaje"
+                    required></textarea>
+            </div>
+
+            <div class="campo-formulario col-sm-1 col-md-2 col-lg-3">
+                <label for="terminos">Acepto terminos y condiciones: </label>
+                <input class="input-styled terminos" id="terminos" name="terminos" type="checkbox" required>
+                <br>
+                <button class="submit" type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </main>
+    <footer class="container-fluid">
+        <div class="row box">
+            <div class="col-md my-4 text-light">
+                <h3 class="ml-5"><i>Encuéntranos</i></h3>
+                <p class="ml-5">Bogota, Colombia</p>
+                <p class="ml-5">Cra. 5 #26b-39</p>
+                <iframe style="border-radius: 10px;" class="ml-2"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.897295465035!2d-74.0696367857369!3d4.6123985437023824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f999a3a31ea19%3A0x370036e508bef0c8!2sCra.%205%20%2326b-39%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1589771984522!5m2!1ses-419!2sco"
+                    width="80%" height="60px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="col-md my-4 text-light">
+                <h3 class="ml-4"><i>Contacto</i></h3>
+                <p class="ml-4">Cel: (+57) 3103499190</p>
+                <p class="ml-4">Tel: (+57) 2326947</p>
+                <p class="ml-4">Correo: ilichm@gmail.com </p>
+            </div>
+            <div class="col-md my-4 text-light">
+                <h3 class="ml-2"><i>¡Síguenos!</i></h3>
+                <a title="Etnica Productos y Servicios"
+                    href="https://www.facebook.com/etnicapys/?eid=ARDeqXm1zIKCfw9KJwfsrvuPZjBpitVGUnjGNvH1SbT1EtIT8MH1AF8sNS4c8RDeNOLyqNroUjJZYvVB"
+                    target="_blank">
+                    <i style="font-size: 40px;" class="fab fa-facebook text-light m-1 ml-4"></i>
+                </a>
+                <a title="Etnica Productos y Servicios" href="https://www.youtube.com/user/eldiafeliz/featured"
+                    target="_blank">
+                    <i style="font-size: 40px;" class="fab fa-youtube text-light m-1"></i>
+                </a>
+            </div>
+            <div class="col-md my-4 text-light">
+                <img style="width: 60%; border-radius: 50%; margin-top: 1em;"
+                    src="./imágenes/Transporte/eaff511c-235e-4d35-a876-4ac6c0f7bd42.jpg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

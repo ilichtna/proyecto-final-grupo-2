@@ -1,0 +1,23 @@
+.fondo-navbar {
+    background-color: #c76a6a;
+    color: black;
+}
+
+.btn-colormenu {
+    background-color: #d29e36;
+    color: #fff;
+}
+
+.fondo-carrusel{
+     background-color:#e5e5e5;
+}
+
+.fuente1{
+    font-family: 'Amatic SC',
+    cursive;
+}
+
+.fuente2{
+    font-family:'Source Code Pro',
+    monospace;
+}
