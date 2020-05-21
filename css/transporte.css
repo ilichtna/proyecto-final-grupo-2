@@ -1,9 +1,16 @@
 .box{
-    background-color: #d29e36;
+    background-color:rgb(199, 106, 106);
     
     }
-    .jumbo{
+.jumbo{
        background-image: url(https://pbs.twimg.com/media/EYajgIQUEAUYvig?format=jpg&name=small);
        background-repeat: no-repeat;
        background-position: right;
+    }
+    .img{
+       width: 100%;
+       transition: width 1s;
+    }
+    .img:hover{
+       width: 300px;
     }
