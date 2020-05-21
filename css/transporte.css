@@ -17,3 +17,14 @@ footer .box {
 .img:hover {
    width: 300px;
 }
+
+.p {
+   max-width: 100%;
+   font-family: 'Amatic SC',
+      cursive;
+}
+
+.t {
+   font-family: 'Source Code Pro',
+      monospace;
+}

@@ -140,3 +140,14 @@ body {
 .clear {
     clear: both;
 }
+
+.p {
+    max-width: 100%;
+    font-family: 'Amatic SC',
+        cursive;
+}
+
+.t {
+    font-family: 'Source Code Pro',
+        monospace;
+}
