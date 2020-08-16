@@ -37,3 +37,6 @@ img {
     left: 10px;
     width: 60;
 }
+.general {
+    position: relative;
+}
